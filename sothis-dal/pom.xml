@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.sothis</groupId>
 		<artifactId>sothis-parent</artifactId>
-		<version>4.1.1-SNAPSHOT</version>
+		<version>4.1.1</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>sothis-dal</artifactId>
