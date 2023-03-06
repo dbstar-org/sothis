@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -10,7 +9,7 @@
 	<groupId>org.sothis</groupId>
 	<artifactId>sothis-parent</artifactId>
 	<packaging>pom</packaging>
-	<version>4.1.0-SNAPSHOT</version>
+	<version>4.1.0</version>
 
 	<name>sothis</name>
 	<description>sothis utils</description>
@@ -20,13 +19,13 @@
 		<connection>scm:git:${project.git.git.root}</connection>
 		<developerConnection>scm:git:${project.git.web.root}</developerConnection>
 		<url>${project.git.web.master}</url>
-		<tag>HEAD</tag>
+		<tag>v4.1.0</tag>
 	</scm>
 
 	<properties>
 		<project.git.project>sothis</project.git.project>
     <!-- module version -->
-		<sothis.version>4.1.0-SNAPSHOT</sothis.version>
+		<sothis.version>4.1.0</sothis.version>
 		<springframework.version>5.3.25</springframework.version>
 	</properties>
 
