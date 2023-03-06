@@ -205,6 +205,19 @@
 			</build>
 		</profile>
 		<profile>
+			<id>distribution-nexus</id>
+			<distributionManagement>
+				<repository>
+					<id>nexus.y1cloud.com</id>
+					<url>https://nexus.y1cloud.com/repository/maven-releases/</url>
+				</repository>
+				<snapshotRepository>
+					<id>nexus.y1cloud.com</id>
+					<url>https://nexus.y1cloud.com/repository/maven-snapshots/</url>
+				</snapshotRepository>
+			</distributionManagement>
+		</profile>
+		<profile>
 			<id>site-local</id>
 			<distributionManagement>
 				<site>
